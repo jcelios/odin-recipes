@@ -1,0 +1,49 @@
+
+body {
+    font: 1.2rem "Fira Sans", sans-serif;
+}
+
+h1 { text-align:center; }
+h2, h3 {
+    text-indent: 0.6em;
+    display: inline-block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+}
+p { margin-left: 0.6em; }
+ol, ul { margin-top: 0.5em; margin-bottom: 0.5em;}
+
+.button {
+    color: white;
+    border: thick solid orange;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    background-color: orange;
+    text-decoration: none;
+}
+
+article, main { border: 5px solid orange; }
+
+li { margin-bottom: 0.5em;}
+
+figure {
+    float: right;
+    border: 3px solid orange;
+    background-color: #222;
+    margin-right: 0.5em;
+}
+
+figcaption {
+    text-transform: uppercase;
+    font-family: "SourceSansPro", helvetica, sans-serif;
+    padding-bottom: 0.5em;
+    font-size: 0.5rem;
+    text-align: center;
+    color: #fff;
+    background-color: #222;
+}
+
+img {
+    width: auto;
+    height: 15em;
+}
